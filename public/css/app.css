@@ -12720,38 +12720,103 @@ header .carousel-caption h1, header .carousel-caption .h1 {
   font-family: "satisfy";
   src: url(../../public/fonts/Satisfy-Regular.ttf);
 }
-.About {
-  background-color: #fffaf3;
-  padding: 0 0 5vh 0;
-}
-.About .about-child {
-  padding-top: 8vh;
+.about-child {
+  padding: 8vh 0;
   padding-right: 3vw;
   display: flex;
   justify-content: start;
+  background-color: #fffaf3;
   gap: 4vw;
+  color: gray;
 }
-.About .about-child h2, .About .about-child .h2 {
+.about-child h2, .about-child .h2 {
   color: #5f5950;
   font-family: satisfy;
 }
-.About .about-child p {
-  color: gray;
-}
-.About .check {
+.check {
   display: flex;
   gap: 10px;
 }
-.About .check i {
+.check i {
   color: #ffa012;
   font-size: 20px;
 }
-.About .check p {
+.check p {
   color: #2d2d2d;
   font-size: 17px;
 }
-.About span {
+
+span {
   font-weight: bold;
+}
+
+.about-child-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10vh;
+  background-color: white;
+  gap: 4vh;
+}
+.about-child-2 .bottom-side .div {
+  padding: 60px 40px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+.about-child-2 .bottom-side .div p {
+  color: gray;
+}
+.about-child-2 .bottom-side .div1 {
+  padding: 50px 40px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+.about-child-2 .bottom-side .div1 p {
+  color: gray;
+}
+.about-child-2 .bottom-side .div:hover {
+  background-color: #ffa012;
+  color: white;
+}
+.about-child-2 .bottom-side .div:hover p {
+  color: white;
+}
+.about-child-2 .bottom-side .div:hover h2, .about-child-2 .bottom-side .div:hover .h2 {
+  color: white;
+}
+.about-child-2 .bottom-side .div:hover h3, .about-child-2 .bottom-side .div:hover .h3 {
+  color: white;
+}
+.about-child-2 .bottom-side .div1:hover {
+  color: white;
+  background-color: #ffa012;
+}
+.about-child-2 .bottom-side .div1:hover p {
+  color: white;
+}
+.about-child-2 .bottom-side .div1:hover h2, .about-child-2 .bottom-side .div1:hover .h2 {
+  color: white;
+}
+.about-child-2 .bottom-side .div1:hover h3, .about-child-2 .bottom-side .div1:hover .h3 {
+  color: white;
+}
+.about-child-2 .bottom-side h3, .about-child-2 .bottom-side .h3 {
+  font-family: satisfy;
+  color: #5f5950;
+  font-weight: bold;
+}
+.about-child-2 .bottom-side h2, .about-child-2 .bottom-side .h2 {
+  color: rgba(255, 160, 18, 0.6078431373);
+  font-weight: bold;
+}
+.about-child-2 h1, .about-child-2 .h1 {
+  font-family: satisfy;
+  color: #5f5950;
+  font-weight: bold;
+}
+.about-child-2 h1 span, .about-child-2 .h1 span {
+  color: #ffa012;
 }
 
 @font-face {
