@@ -12823,5 +12823,118 @@ span {
   font-family: satisfy;
   src: url(./public/fonts/Satisfy-Regular.ttf);
 }
+.duxieme-partie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10vh;
+  gap: 3vh;
+}
+.duxieme-partie p {
+  text-align: center;
+}
+.duxieme-partie h2, .duxieme-partie .h2 {
+  text-align: center;
+  color: #5f5950;
+  font-weight: bold;
+  font-family: satisfy;
+}
+.duxieme-partie span {
+  color: #ffa012;
+}
+
+.premier-partie {
+  padding: 8vh 5vw;
+  background-image: url(../images/events-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.premier-partie::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.489);
+}
+.premier-partie p {
+  color: white;
+}
+.premier-partie h3, .premier-partie .h3 {
+  color: white;
+  border-bottom: solid 2px #ffa012;
+  width: 55px;
+}
+.premier-partie h2, .premier-partie .h2 {
+  font-family: satisfy;
+  font-weight: bold;
+  color: white;
+}
+.premier-partie span {
+  color: #ffa012;
+}
+.premier-partie .btn-2 {
+  border-radius: 50px;
+  border: none;
+}
+
+.active2 {
+  background-color: #ffa012;
+}
+
+.formulaire button {
+  background-color: #ffb03b;
+  border: none;
+  padding: 1vh 2vw;
+  border-radius: 20px;
+  color: white;
+}
+.formulaire button:hover {
+  background-color: #ffa012;
+}
+.formulaire h1, .formulaire .h1 {
+  color: #314584;
+  padding-bottom: 3vh;
+  font-size: 40px;
+}
+.formulaire .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 2px 15px rgba(8, 8, 8, 0.1);
+  padding: 3vh;
+  gap: 3vh;
+}
+.formulaire .form1 {
+  display: flex;
+  flex-direction: row;
+  gap: 5vw;
+}
+.formulaire .form2 {
+  display: flex;
+  flex-direction: row;
+  gap: 5vw;
+}
+.formulaire textarea {
+  padding: 5vh 1vw;
+  width: 100%;
+  border: solid 1px rgba(14, 14, 14, 0.1725490196);
+}
+.formulaire .input {
+  padding-top: 2vh;
+  padding-bottom: 1.5vh;
+  padding-right: 12vw;
+  padding-left: 1vw;
+  border: solid 1px rgba(14, 14, 14, 0.1725490196);
+}
+
+@font-face {
+  font-family: satisfy;
+  src: url(./public/fonts/Satisfy-Regular.ttf);
+}
 
 /*# sourceMappingURL=app.css.map */
