@@ -12936,5 +12936,32 @@ span {
   font-family: satisfy;
   src: url(./public/fonts/Satisfy-Regular.ttf);
 }
+.title {
+  text-align: center;
+}
+.title h2, .title .h2 {
+  font-family: satisfy;
+  font-weight: bold;
+}
+.title h2 span, .title .h2 span {
+  color: #ffa012;
+}
+
+.img-child {
+  overflow: hidden;
+  position: relative;
+}
+.img-child .gallerys {
+  width: 24vw;
+  padding: 3px;
+  overflow: hidden;
+  position: relative;
+}
+.img-child .gallerys img {
+  width: 100%;
+}
+.img-child .gallerys img:hover {
+  transform: scale(1.03);
+}
 
 /*# sourceMappingURL=app.css.map */
