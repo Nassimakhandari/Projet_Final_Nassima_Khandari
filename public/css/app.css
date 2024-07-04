@@ -12838,7 +12838,7 @@ span {
 .duxieme-partie p {
   text-align: center;
 }
-.duxieme-partie h1, .duxieme-partie .h1 {
+.duxieme-partie h2, .duxieme-partie .h2 {
   text-align: center;
   color: #5f5950;
   font-weight: bold;
@@ -12899,6 +12899,11 @@ span {
 .formulaire button:hover {
   background-color: #ffa012;
 }
+.formulaire h1, .formulaire .h1 {
+  color: #314584;
+  padding-bottom: 3vh;
+  font-size: 40px;
+}
 .formulaire .form {
   display: flex;
   flex-direction: column;
@@ -12938,7 +12943,6 @@ span {
   text-align: center;
 }
 .title h2, .title .h2 {
-  color: #55524d;
   font-family: satisfy;
   font-weight: bold;
 }
@@ -12981,7 +12985,8 @@ span {
   color: #f49910;
   font-size: 18px;
 }
-.Menu p {
+
+p {
   color: gray;
   font-size: 15px;
   font-family: italic;
@@ -12990,13 +12995,13 @@ span {
 .accordion {
   padding: 7vh;
 }
-.accordion h1, .accordion .h1 {
+.accordion h2, .accordion .h2 {
   font-family: satisfy;
   font-weight: bold;
   text-align: center;
-  color: #55524d;
+  color: rgba(8, 8, 8, 0.7803921569);
 }
-.accordion h1 span, .accordion .h1 span {
+.accordion h2 span, .accordion .h2 span {
   color: #ffa012;
 }
 
