@@ -12728,6 +12728,10 @@ header .carousel-caption h1, header .carousel-caption .h1 {
   background-color: #fffaf3;
   gap: 4vw;
 }
+.about-child p {
+  color: gray;
+  font-size: 17px;
+}
 .about-child h2, .about-child .h2 {
   color: #5f5950;
   font-family: satisfy;
@@ -12803,7 +12807,7 @@ span {
 }
 .about-child-2 .bottom-side h3, .about-child-2 .bottom-side .h3 {
   font-family: satisfy;
-  color: #5f5950;
+  color: rgba(95, 89, 80, 0.8705882353);
   font-weight: bold;
 }
 .about-child-2 .bottom-side h2, .about-child-2 .bottom-side .h2 {
@@ -12812,7 +12816,7 @@ span {
 }
 .about-child-2 h1, .about-child-2 .h1 {
   font-family: satisfy;
-  color: #5f5950;
+  color: #55524d;
   font-weight: bold;
 }
 .about-child-2 h1 span, .about-child-2 .h1 span {
@@ -12834,7 +12838,7 @@ span {
 .duxieme-partie p {
   text-align: center;
 }
-.duxieme-partie h2, .duxieme-partie .h2 {
+.duxieme-partie h1, .duxieme-partie .h1 {
   text-align: center;
   color: #5f5950;
   font-weight: bold;
@@ -12895,11 +12899,6 @@ span {
 .formulaire button:hover {
   background-color: #ffa012;
 }
-.formulaire h1, .formulaire .h1 {
-  color: #314584;
-  padding-bottom: 3vh;
-  font-size: 40px;
-}
 .formulaire .form {
   display: flex;
   flex-direction: column;
@@ -12939,6 +12938,7 @@ span {
   text-align: center;
 }
 .title h2, .title .h2 {
+  color: #55524d;
   font-family: satisfy;
   font-weight: bold;
 }
@@ -12981,8 +12981,7 @@ span {
   color: #f49910;
   font-size: 18px;
 }
-
-p {
+.Menu p {
   color: gray;
   font-size: 15px;
   font-family: italic;
@@ -12991,13 +12990,13 @@ p {
 .accordion {
   padding: 7vh;
 }
-.accordion h2, .accordion .h2 {
+.accordion h1, .accordion .h1 {
   font-family: satisfy;
   font-weight: bold;
   text-align: center;
-  color: rgba(8, 8, 8, 0.7803921569);
+  color: #55524d;
 }
-.accordion h2 span, .accordion .h2 span {
+.accordion h1 span, .accordion .h1 span {
   color: #ffa012;
 }
 
