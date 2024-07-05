@@ -1,0 +1,56 @@
+.Specials
+    text-align: center
+    padding: 10vh 7vw
+    display: flex
+    flex-direction: column
+    gap: 1vh
+.paragraph
+    color: #5f5950
+h1
+    font-family: satisfy
+    font-weight: bold
+    span
+        color: #ffb03b
+h2
+    font-family: satisfy
+.parent
+    display: flex
+    padding: 0 6vw 
+.links
+    text-align: start
+    display: flex
+    flex-direction: column
+    gap: 4vh
+    a
+        color: #433f39
+        transition: 0.3s
+        text-decoration: none
+        font-weight: bold
+        font-size: 16px
+        &:hover
+            color: #ffb03b
+.child-special
+    display: flex
+    gap: 2vw
+    width: 100%
+    .info
+        text-align: start
+        width: 80%
+        p
+            color: gray
+
+@media ( max-width: 428px )
+    .specials
+        flex-direction: column
+    .links
+        flex-direction: column
+        a:hover
+            color: white
+            background-color: #ffb03b
+            padding: 2vh
+    .child-special
+        flex-direction: column
+    .parent
+        flex-direction: column
+        gap: 4vh
+

@@ -12677,12 +12677,12 @@ header nav .child2 a:hover {
 header nav .child2 button {
   background-color: #ffb03b;
   border: none;
-  padding: 0.8vh 1.8vw;
+  padding: 1vh 2vw;
   border-radius: 20px;
   color: white;
 }
 header nav .child2 button:hover {
-  background-color: #e88e08;
+  background-color: #ffa012;
 }
 header .btn-1 button {
   border: solid 2px #ffb03b;
@@ -12719,18 +12719,6 @@ header .carousel-caption h1, header .carousel-caption .h1 {
 @font-face {
   font-family: "satisfy";
   src: url(../../public/fonts/Satisfy-Regular.ttf);
-}
-@media (max-width: 428px) {
-  header .carousel-item img {
-    padding-top: 15vh;
-    height: 100%;
-  }
-  nav a {
-    display: none;
-  }
-  nav select {
-    display: none;
-  }
 }
 .about-child {
   padding: 8vh 0;
@@ -12849,8 +12837,6 @@ span {
 }
 .duxieme-partie p {
   text-align: center;
-  font-size: 17px;
-  color: #4a4444;
 }
 .duxieme-partie h1, .duxieme-partie .h1 {
   text-align: center;
@@ -12942,33 +12928,11 @@ span {
   padding-right: 12vw;
   padding-left: 1vw;
   border: solid 1px rgba(14, 14, 14, 0.1725490196);
-  display: flex;
 }
 
 @font-face {
   font-family: satisfy;
   src: url(./public/fonts/Satisfy-Regular.ttf);
-}
-@media (max-width: 428px) {
-  .duxieme-partie {
-    flex-direction: column;
-  }
-  form {
-    flex-direction: column;
-  }
-  .form {
-    flex-direction: column;
-  }
-  .form1 {
-    flex-direction: column;
-  }
-  .form2 {
-    flex-direction: column;
-  }
-  .input {
-    width: 27%;
-    flex-direction: column;
-  }
 }
 .title {
   text-align: center;
@@ -12999,17 +12963,6 @@ span {
   transform: scale(1.03);
 }
 
-@media (max-width: 428px) {
-  .Gallery .gall {
-    flex-direction: column;
-  }
-  .Gallery .img-child {
-    flex-direction: column;
-  }
-  .Gallery .img-child img {
-    width: 100% !important;
-  }
-}
 .Menu button {
   background-color: transparent;
   border-radius: 20px;

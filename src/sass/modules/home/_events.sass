@@ -7,6 +7,8 @@
     gap: 3vh
     p
         text-align: center
+        font-size: 17px
+        color: #4a4444
     h1
         text-align: center
         color: #5f5950
@@ -83,23 +85,7 @@
         padding-right: 12vw
         padding-left: 1vw
         border: solid 1px #0e0e0e2c
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
+        display: flex
 
 
 
@@ -108,3 +94,19 @@
 @font-face
     font-family: satisfy
     src: url(./public/fonts/Satisfy-Regular.ttf)
+
+
+@media ( max-width: 428px )
+    .duxieme-partie
+        flex-direction: column
+    form
+        flex-direction: column
+    .form
+        flex-direction: column
+    .form1
+        flex-direction: column
+    .form2
+        flex-direction: column
+    .input
+        width: 27%
+        flex-direction: column

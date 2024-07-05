@@ -1,0 +1,26 @@
+.bg-carousel
+    padding: 10vh 0
+    background-image: url(../images/testimonials-bg.jpg)
+    background-position: center
+    background-size: cover
+    &::before
+        content: ""
+        position: absolute
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
+        background-color: rgba(0, 0, 0, 0.489)
+    .information
+        align-items: center
+    .profil
+        border: 5px solid #4c4b4b27
+@media ( max-width: 428px )
+    .Chefs
+        flex-direction: column 
+    .card-group
+        flex-direction: column  !important
+    .card-child
+        flex-direction: column 
+        width: 700px !important
+    
