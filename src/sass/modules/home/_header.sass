@@ -30,11 +30,11 @@ header
             button
                 background-color: #ffb03b
                 border: none
-                padding: 1vh 2vw
+                padding: 0.8vh 1.8vw
                 border-radius: 20px
                 color: white
             button:hover
-                background-color: #ffa012
+                background-color: #e88e08
     .btn-1
         button
             border: solid 2px #ffb03b
@@ -68,3 +68,14 @@ header
 @font-face 
     font-family: "satisfy"
     src: url(../../public/fonts/Satisfy-Regular.ttf)
+@media ( max-width: 428px )
+    header
+        .carousel-item
+            img
+                padding-top: 15vh
+                height: 100%
+    nav
+        a
+            display: none
+        select
+            display: none
