@@ -12716,17 +12716,6 @@ header .carousel-caption h1, header .carousel-caption .h1 {
   font-weight: bold;
 }
 
-.btn-3 {
-  position: fixed;
-  padding: 1vh;
-  bottom: 20px;
-  right: 20px;
-  z-index: 20;
-  border-radius: 50%;
-  background-color: #ffb03b;
-  color: white;
-}
-
 @font-face {
   font-family: "satisfy";
   src: url(../../public/fonts/Satisfy-Regular.ttf);
@@ -13024,14 +13013,14 @@ span {
 }
 
 @media (max-width: 428px) {
-  .gall {
+  .Gallery .gall {
     flex-direction: column;
   }
-  .gall .img-child {
+  .Gallery .img-child {
     flex-direction: column;
   }
-  .gall .img-child .gallerys {
-    width: 90vw;
+  .Gallery .img-child img {
+    width: 100% !important;
   }
 }
 .Menu button {
