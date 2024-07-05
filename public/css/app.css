@@ -12677,12 +12677,12 @@ header nav .child2 a:hover {
 header nav .child2 button {
   background-color: #ffb03b;
   border: none;
-  padding: 1vh 2vw;
+  padding: 0.8vh 1.8vw;
   border-radius: 20px;
   color: white;
 }
 header nav .child2 button:hover {
-  background-color: #ffa012;
+  background-color: #e88e08;
 }
 header .btn-1 button {
   border: solid 2px #ffb03b;
@@ -12716,9 +12716,32 @@ header .carousel-caption h1, header .carousel-caption .h1 {
   font-weight: bold;
 }
 
+.btn-3 {
+  position: fixed;
+  padding: 1vh;
+  bottom: 20px;
+  right: 20px;
+  z-index: 20;
+  border-radius: 50%;
+  background-color: #ffb03b;
+  color: white;
+}
+
 @font-face {
   font-family: "satisfy";
   src: url(../../public/fonts/Satisfy-Regular.ttf);
+}
+@media (max-width: 428px) {
+  header .carousel-item img {
+    padding-top: 15vh;
+    height: 100%;
+  }
+  nav a {
+    display: none;
+  }
+  nav select {
+    display: none;
+  }
 }
 .about-child {
   padding: 8vh 0;
@@ -12823,6 +12846,19 @@ span {
   color: #ffa012;
 }
 
+@media (max-width: 428px) {
+  .about-child {
+    flex-direction: column;
+    padding: 0 3vw;
+  }
+  .about-child video {
+    width: 400px;
+  }
+  .abt {
+    flex-direction: column;
+    padding: 0 2vw;
+  }
+}
 @font-face {
   font-family: satisfy;
   src: url(./public/fonts/Satisfy-Regular.ttf);
@@ -12837,6 +12873,8 @@ span {
 }
 .duxieme-partie p {
   text-align: center;
+  font-size: 17px;
+  color: #4a4444;
 }
 .duxieme-partie h1, .duxieme-partie .h1 {
   text-align: center;
@@ -12928,11 +12966,33 @@ span {
   padding-right: 12vw;
   padding-left: 1vw;
   border: solid 1px rgba(14, 14, 14, 0.1725490196);
+  display: flex;
 }
 
 @font-face {
   font-family: satisfy;
   src: url(./public/fonts/Satisfy-Regular.ttf);
+}
+@media (max-width: 428px) {
+  .duxieme-partie {
+    flex-direction: column;
+  }
+  form {
+    flex-direction: column;
+  }
+  .form {
+    flex-direction: column;
+  }
+  .form1 {
+    flex-direction: column;
+  }
+  .form2 {
+    flex-direction: column;
+  }
+  .input {
+    width: 27%;
+    flex-direction: column;
+  }
 }
 .title {
   text-align: center;
@@ -12963,6 +13023,17 @@ span {
   transform: scale(1.03);
 }
 
+@media (max-width: 428px) {
+  .gall {
+    flex-direction: column;
+  }
+  .gall .img-child {
+    flex-direction: column;
+  }
+  .gall .img-child .gallerys {
+    width: 90vw;
+  }
+}
 .Menu button {
   background-color: transparent;
   border-radius: 20px;
