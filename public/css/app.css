@@ -12716,6 +12716,17 @@ header .carousel-caption h1, header .carousel-caption .h1 {
   font-weight: bold;
 }
 
+.btn-3 {
+  position: fixed;
+  padding: 1vh;
+  bottom: 20px;
+  right: 20px;
+  z-index: 20;
+  border-radius: 50%;
+  background-color: #ffb03b;
+  color: white;
+}
+
 @font-face {
   font-family: "satisfy";
   src: url(../../public/fonts/Satisfy-Regular.ttf);
@@ -12841,7 +12852,7 @@ span {
     padding: 0 3vw;
   }
   .about-child video {
-    width: 500px;
+    width: 400px;
   }
   .abt {
     flex-direction: column;
@@ -13013,14 +13024,14 @@ span {
 }
 
 @media (max-width: 428px) {
-  .Gallery .gall {
+  .gall {
     flex-direction: column;
   }
-  .Gallery .img-child {
+  .gall .img-child {
     flex-direction: column;
   }
-  .Gallery .img-child img {
-    width: 100% !important;
+  .gall .img-child .gallerys {
+    width: 90vw;
   }
 }
 .Menu button {
